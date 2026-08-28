@@ -34,8 +34,3 @@ X.X.X.X ansible_user=azureuser
 cd ../ansible
 ansible-playbook -i ../infra/inventory.ini playbook.yml --ask-become-pass
 ```
-
-Observações
-- Não comite segredos (senhas, chaves, storage credentials). Altere a senha padrão em infra/variable.tf antes de usar.
-- O backend do Terraform está configurado em infra/backend.tf; ajuste para seu ambiente quando necessário.
-
