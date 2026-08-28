@@ -39,5 +39,3 @@ Observações
 - Não comite segredos (senhas, chaves, storage credentials). Altere a senha padrão em infra/variable.tf antes de usar.
 - O backend do Terraform está configurado em infra/backend.tf; ajuste para seu ambiente quando necessário.
 
-Contribuição
-- PRs e issues são bem-vindos. Para dúvidas, abra uma issue com o objetivo/erro observado.
